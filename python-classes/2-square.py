@@ -1,20 +1,11 @@
 #!/usr/bin/python3
-"""This module defines a Square class with size validation."""
+"""no module to import"""
 
 
 class Square:
-    """A class that defines a square by its size with validation."""
-    
+    """Initializes a new instance of the Square class."""
     def __init__(self, size=0):
-        """Initialize a square with a given size.
-        
-        Args:
-            size: The size of the square (default is 0).
-            
-        Raises:
-            TypeError: If size is not an integer.
-            ValueError: If size is less than 0.
-        """
+        """initializing an atribute to the object"""
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
