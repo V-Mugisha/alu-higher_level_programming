@@ -38,16 +38,6 @@ class Rectangle:
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
 
-    @classmethod
-    def square(cls, size=0):
-        """Creates a new Rectangle instance with width == height == size
-        Args:
-            size: size to set the new rectangle to
-        Returns:
-            The new Rectangle instance
-        """
-        return cls(size, size)
-
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Returns the biggest rectangle based on the area
