@@ -6,6 +6,7 @@ class Rectangle:
     """Creates a rectangle."""
 
     number_of_instances = 0
+    print_symbol = '#'
 
     def __init__(self, width=0, height=0):
         """Initialize data."""
@@ -20,7 +21,7 @@ class Rectangle:
         rectangle = ''
         for i in range(self.__height):
             for j in range(self.__width):
-                rectangle += '#'
+                rectangle += str(self.print_symbol)
             rectangle += '\n'
         return rectangle[:-1]
 
