@@ -1,1 +1,1 @@
-$content
+SQL - Introduction
