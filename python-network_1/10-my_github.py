@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Python script that takes your GitHub credentials (username and personal access token)
 and uses the GitHub API to display your user ID.
